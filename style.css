@@ -1,0 +1,158 @@
+
+body {
+  background-color: #fef9e8; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #2c3e2f;
+  line-height: 1.5;
+}
+
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #ffffffcc;
+  border-radius: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+  color: #3b5e2b;
+  font-size: 2.2rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+
+
+header img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+header img:hover {
+  transform: scale(1.01);
+}
+
+
+body > p {
+  background: white;
+  padding: 1rem 1.8rem;
+  border-radius: 40px;
+  font-size: 1.1rem;
+  text-align: center;
+  max-width: 800px;
+  margin: 1rem auto 2rem auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border-left: 5px solid #e0a82b;
+}
+
+
+section {
+  background: white;
+  border-radius: 28px;
+  padding: 0.2rem 1.8rem 1.8rem 1.8rem;
+  margin: 2rem auto;
+  max-width: 900px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s;
+  border: 1px solid #f3e5c9;
+}
+
+section:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+section:first-of-type {
+  background: #fef7e0;
+  border-left: 6px solid #e0a82b;
+}
+
+section:nth-of-type(2) {
+  background: #ffffff;
+  border-left: 6px solid #8fbc6e;
+}
+
+section:nth-of-type(3) {
+  background: #fefaf2;
+  border-left: 6px solid #bc9a6c;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  border-bottom: 2px dashed #d6c2a0;
+  padding-bottom: 0.4rem;
+  margin-top: 1.2rem;
+  color: #4a6a3b;
+  font-weight: 600;
+}
+
+ul, ol {
+  padding-left: 1.6rem;
+  margin: 1rem 0 1.2rem 0;
+}
+
+li {
+  margin: 0.6rem 0;
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+ul li::marker {
+  color: #e0a82b;
+  font-size: 1.2rem;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 1.8rem;
+}
+
+ol li::marker {
+  font-weight: bold;
+  color: #8fbc6e;
+}
+
+li {
+  padding: 0.1rem 0;
+}
+
+section:last-of-type {
+  background: #f2e8d5;
+  border-left: 6px solid #c97e2a;
+  text-align: left;
+  padding-bottom: 1.5rem;
+}
+
+section:last-of-type h2 {
+  color: #b45f1b;
+  border-bottom-color: #c97e2a;
+  font-weight: 700;
+}
+
+section:last-of-type span {
+  font-weight: 700;
+  font-size: 1.05rem;
+  display: inline-block;
+  margin: 0.3rem 0;
+  color: #2c3e2f;
+  letter-spacing: 0.2px;
+}
+
+section:last-of-type hr {
+  margin: 0.6rem 0;
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, #e0a82b, #f2e8d5);
+}
+
+
