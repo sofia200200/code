@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join our community</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #e8f4f8;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 12px;
+      overflow: hidden;
+      max-width: 600px;
+      width: 100%;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .card__header {
+      padding: 2rem 2rem 1.5rem;
+      text-align: left;
+    }
+
+    .card__title {
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: #3abfbf;
+      margin-bottom: 0.4rem;
+    }
+
+    .card__guarantee {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #c8b400;
+      margin-bottom: 1rem;
+    }
+
+    .card__description {
+      font-size: 0.85rem;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    .card__body {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .card__pricing {
+      background-color: #3abfbf;
+      padding: 1.5rem;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+
+    .card__section-title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 0.25rem;
+    }
+
+    .card__price {
+      display: flex;
+      align-items: baseline;
+      gap: 0.4rem;
+    }
+
+    .card__price-amount {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    .card__price-period {
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.85);
+    }
+
+    .card__price-note {
+      font-size: 0.78rem;
+      color: rgba(255, 255, 255, 0.85);
+    }
+
+    .card__cta {
+      display: inline-block;
+      margin-top: 0.75rem;
+      background-color: #c8e600;
+      color: #333;
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-decoration: none;
+      text-align: center;
+      padding: 0.55rem 2rem;
+      border-radius: 4px;
+      width: 100%;
+      transition: background-color 0.2s ease;
+    }
+
+    .card__cta:hover {
+      background-color: #b8d400;
+    }
+
+    .card__features {
+      background-color: #2aa8a8;
+      padding: 1.5rem;
+      color: #ffffff;
+    }
+
+    .card__features .card__section-title {
+      margin-bottom: 0.75rem;
+    }
+
+    .card__list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .card__list li {
+      font-size: 0.82rem;
+      color: rgba(255, 255, 255, 0.9);
+      line-height: 1.4;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+        align-items: flex-start;
+      }
+
+      .card__header {
+        text-align: center;
+        padding: 1.75rem 1.5rem 1.25rem;
+      }
+
+      .card__title {
+        font-size: 1.6rem;
+      }
+
+      .card__description {
+        text-align: center;
+      }
+
+      .card__body {
+        grid-template-columns: 1fr;
+      }
+
+      .card__pricing {
+        align-items: center;
+        text-align: center;
+      }
+
+      .card__features {
+        text-align: center;
+      }
+
+      .card__list {
+        align-items: center;
+      }
+
+      .card__cta {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="card__header">
+      <h1 class="card__title">Join our community</h1>
+      <p class="card__guarantee">30-days, hassle-free, money back guarantee</p>
+      <p class="card__description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, non quis aliquid vel maiores
+        facere odio cum eos quia temporibus similique et architecto! Nemo architecto dolorum
+        voluptatibus accusantium illo ex.
+      </p>
+    </div>
+
+    <div class="card__body">
+      <div class="card__pricing">
+        <h2 class="card__section-title">Monthly subscriptions</h2>
+        <p class="card__price">
+          <span class="card__price-amount">$29.99</span>
+          <span class="card__price-period">per month</span>
+        </p>
+        <p class="card__price-note">Full access for less than $1 a day</p>
+        <a href="#" class="card__cta">Sign up</a>
+      </div>
+
+      <div class="card__features">
+        <h2 class="card__section-title">Why us</h2>
+        <ul class="card__list">
+          <li>Tutorials by industry experts</li>
+          <li>Peer &amp; expert code reviews</li>
+          <li>Coding exercices</li>
+          <li>Access to our github repos</li>
+          <li>Community forums</li>
+          <li>Flashcard decks</li>
+          <li>New videos every week</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
